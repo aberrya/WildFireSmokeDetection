@@ -1,8 +1,8 @@
 # WildFireSmokeDetection 
-Submission for hackathon conducted by AI For Mankind (https://aiformankind.org/). See details of hackathon at https://aiformankind.org/lets-stop-wildfires-hackathon-2.0/
+Submission for hackathon conducted by AI For Mankind (https://aiformankind.org/) to early detect WildFire smoke . See details of hackathon at https://aiformankind.org/lets-stop-wildfires-hackathon-2.0/
 
 
-Thanks to AIManKind for providing Quick Start Demo https://github.com/aiformankind/wildfire-smoke-detection-camera
+Thanks to AIForManKind for providing Quick Start Demo https://github.com/aiformankind/wildfire-smoke-detection-camera
 and providning label Image Data Set.
 
 ### Saved Model
@@ -12,7 +12,15 @@ Data Set - 737 images. After augmenting (Horizontal Flip and added brightness fo
 
    Training Images : 1739
    Validation Images : 111
+   
 
+#### How to do Training and Inference
+
+See [Model Training notebook](smoke_detection_model/notebooks/Model_Training_efficientdet_d3.ipynb)
+
+To model inference form saved model refer to [inference notebook](smoke_detection_model/notebooks/smoke_detection_Inference_efficientdet-d3.ipynb)
+
+Training done on Google Colab with Tesla K80 GPU.
 
 ### Resources
 
