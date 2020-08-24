@@ -5,7 +5,7 @@ Submission for hackathon conducted by AI For Mankind (https://aiformankind.org/)
 Thanks to AIForManKind for providing Quick Start Demo https://github.com/aiformankind/wildfire-smoke-detection-camera
 and providning label Image Data Set.
 
-### Saved Model
+### Fine Tuned Model
 Submitted fined tune model is trained with EfficientDet-d3 using TensorFlow.
 
 Data Set - 737 images. After augmenting (Horizontal Flip and added brightness), dataset was :-
@@ -16,11 +16,10 @@ Data Set - 737 images. After augmenting (Horizontal Flip and added brightness), 
 
 Total training steps : 107000
 
-### Fine Tuned Model
 Saved model can be downloaded from https://drive.google.com/drive/folders/1R54ZCvD9-aNc-q59ZxUK_go9wO5qJKku?usp=sharingv
    
 
-#### How to do Training and Inference
+#### How to do Training and results Inference
 
 See [Model Training notebook](smoke_detection_model/notebooks/Model_Training_efficientdet_d3.ipynb) to do train youe model on smoke images.
 
@@ -47,7 +46,7 @@ Other Resources
 - Data Augmentation using [roboflow](https://roboflow.com/)
 - [Train object detection with Keras](https://machinelearningmastery.com/how-to-train-an-object-detection-model-with-keras/)
 
-#### Others model Tried
+#### Others models explored
 
 
  - YOLOV5 - With YOLOV5 with our dataset full smoke images were not detected properly.
