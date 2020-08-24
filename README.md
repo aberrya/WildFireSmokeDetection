@@ -5,7 +5,7 @@ Submission for hackathon conducted by AI For Mankind (https://aiformankind.org/)
 Thanks to AIForManKind for providing Quick Start Demo https://github.com/aiformankind/wildfire-smoke-detection-camera
 and providning label Image Data Set.
 
-### Fine Tuned Model
+### Saved Model
 Submitted fined tune model is trained with EfficientDet-d3 using TensorFlow.
 
 Data Set - 737 images. After augmenting (Horizontal Flip and added brightness), dataset was :-
@@ -16,10 +16,11 @@ Data Set - 737 images. After augmenting (Horizontal Flip and added brightness), 
 
 Total training steps : 107000
 
+### Fine Tuned Model
 Saved model can be downloaded from https://drive.google.com/drive/folders/1R54ZCvD9-aNc-q59ZxUK_go9wO5qJKku?usp=sharingv
    
 
-#### How to do Training and results Inference
+#### How to do Training and Inference
 
 See [Model Training notebook](smoke_detection_model/notebooks/Model_Training_efficientdet_d3.ipynb) to do train youe model on smoke images.
 
@@ -46,7 +47,7 @@ Other Resources
 - Data Augmentation using [roboflow](https://roboflow.com/)
 - [Train object detection with Keras](https://machinelearningmastery.com/how-to-train-an-object-detection-model-with-keras/)
 
-#### Others models explored
+#### Others model Tried
 
 
  - YOLOV5 - With YOLOV5 with our dataset full smoke images were not detected properly.
@@ -54,8 +55,11 @@ Other Resources
  - SSD Mobile to solve this problem, but in results we found some limitations with some pattern of images. Training was very slow
  
  - FatserRCNN ResNet101 - Got very best accuracy and lowest loss with this. But it was giving many False Positive for Fog images test.
+  
+ - Faster_rcnn_inception_resnet_v2_atrous_coco gives good results for true positives but the prediction time is very high and do not solve False Postives                  problem(predicting fog as smoke) 
  
-- Segmentation part of this problem is also tried with Detectron2 model by preparing data from Labelme and then converted it to COCO with labelme2coco.py.
-- AP factor for segmenatation part was very less, so we are not including with our results.
+ - Segmentation part of this problem is also tried with Detectron2 model by preparing data from Labelme and then converted it to COCO with labelme2coco.py.
+ 
+ - AP factor for segmenatation part was very less, so we are not including with our results.
 
 
