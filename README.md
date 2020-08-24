@@ -62,4 +62,11 @@ Other Resources
  
  - AP factor for segmenatation part was very less, so we are not including with our results.
 
+#### Results
+
+![alt text](https://github.com/Krrish3398/WildFireSmokeDetection/blob/master/smoke_detection_model/results_efficientnet_d3/True_Positives/1.png)
+![alt text](https://github.com/Krrish3398/WildFireSmokeDetection/blob/master/smoke_detection_model/results_efficientnet_d3/True_Positives/2.png)
+![alt text](https://github.com/Krrish3398/WildFireSmokeDetection/blob/master/smoke_detection_model/results_efficientnet_d3/True_Positives/4.png)
+![alt text](https://github.com/Krrish3398/WildFireSmokeDetection/blob/master/smoke_detection_model/results_efficientnet_d3/True_Positives/5.png)
+![alt text](https://github.com/Krrish3398/WildFireSmokeDetection/blob/master/smoke_detection_model/results_efficientnet_d3/True_Positives/6.png)
 
