@@ -6,11 +6,12 @@ Thanks to AIForManKind for providing Quick Start Demo https://github.com/aiforma
 and providning label Image Data Set.
 
 ### Saved Model
-Submitted fined tune model is with EfficientDet-d3 using TensorFlow.
+Submitted fined tune model is trained with EfficientDet-d3 using TensorFlow.
 
-Data Set - 737 images. After augmenting (Horizontal Flip and added brightness form 0% to 23%). 
+Data Set - 737 images. After augmenting (Horizontal Flip and added brightness), dataset was :-
 
    Training Images : 1739
+   
    Validation Images : 111
 
 Total training steps : 107000
