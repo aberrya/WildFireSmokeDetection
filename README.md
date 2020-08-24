@@ -39,7 +39,7 @@ Tensorflow Resources
 - [Tensorflow Quickstart](https://www.tensorflow.org/tutorials/quickstart/beginner)
 - [TF Objection Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
 - [Object detection inference] (https://github.com/tensorflow/models/blob/master/research/object_detection/colab_tutorials/inference_from_saved_model_tf2_colab.ipynb)
-- 
+
 
 Other Resources
 - [Faster RCNN ResNnet](https://towardsdatascience.com/faster-r-cnn-object-detection-implemented-by-keras-for-custom-data-from-googles-open-images-125f62b9141a)
