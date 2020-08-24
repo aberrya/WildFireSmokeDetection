@@ -12,15 +12,19 @@ Data Set - 737 images. After augmenting (Horizontal Flip and added brightness fo
 
    Training Images : 1739
    Validation Images : 111
+
+Total training steps : 107000
+
+### Fine Tuned Model
+Saved model can be downloaded from https://drive.google.com/drive/folders/1R54ZCvD9-aNc-q59ZxUK_go9wO5qJKku?usp=sharingv
    
 
 #### How to do Training and Inference
 
-See [Model Training notebook](smoke_detection_model/notebooks/Model_Training_efficientdet_d3.ipynb)
+See [Model Training notebook](smoke_detection_model/notebooks/Model_Training_efficientdet_d3.ipynb) to do train youe model on smoke images.
 
-To model inference form saved model refer to [inference notebook](smoke_detection_model/notebooks/smoke_detection_Inference_efficientdet-d3.ipynb)
+For doing inference from saved model refer to [inference notebook](smoke_detection_model/notebooks/smoke_detection_Inference_efficientdet-d3.ipynb)
 
-Training done on Google Colab with Tesla K80 GPU.
 
 ### Resources
 
