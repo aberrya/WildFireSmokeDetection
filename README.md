@@ -1,4 +1,4 @@
-# WildFireSmokeDetection 
+# WildFire Smoke Detection 
 Submission for hackathon conducted by AI For Mankind (https://aiformankind.org/) to early detect WildFire smoke . See details of hackathon at https://aiformankind.org/lets-stop-wildfires-hackathon-2.0/
 
 
@@ -26,15 +26,15 @@ Saved model can be downloaded from https://drive.google.com/drive/folders/1R54ZC
 
 See [Model Training notebook](smoke_detection_model/notebooks/Model_Training_efficientdet_d3.ipynb) to do train model on smoke images.
 
-For inference from saved model refer to [inference notebook](smoke_detection_model/notebooks/smoke_detection_Inference_efficientdet-d3.ipynb)
+For inference from saved model, refer to [inference notebook](smoke_detection_model/notebooks/smoke_detection_Inference_efficientdet-d3.ipynb)
 
 
 ### Resources
 
 WildFire Resources
 - [FUEGO Wildfire Detection Slides by Kinshuk Govil](https://tinyurl.com/rbrn4oq)
-- [Wildland Fire Assessment System] (https://journals.sagepub.com/doi/pdf/10.1155/2014/597368)
-- [How Wildfire Works] (https://science.howstuffworks.com/nature/natural-disasters/wildfire.htm/printable)
+- [Wildland Fire Assessment System](https://journals.sagepub.com/doi/pdf/10.1155/2014/597368)
+- [How Wildfire Works](https://science.howstuffworks.com/nature/natural-disasters/wildfire.htm/printable)
 - [Wildland Fire: What is Hazard Fuel Reduction?](https://www.nps.gov/articles/what-is-hazard-fuel-reduction.htm)
 
 
@@ -54,17 +54,15 @@ Other Resources
 #### Others Model Tried
 
 
- - SSD Mobile to solve this problem, but in results we found some limitations with some pattern of images. Training was very slow
+ - Explored SSD Mobile to solve this problem, but in results we found some limitations with some pattern of images. Training was very slow.
  
  - FatserRCNN ResNet101 - Got  best accuracy and lowest loss with this. But it was giving many False Positive for Fog images test.
   
  - Faster_rcnn_inception_resnet_v2_atrous_coco also gave good results for true positives but the prediction time is very high and do not solve False Postives problem(predicting fog as smoke) 
  
- - Segmentation part of this problem is also tried with Detectron2 model by preparing data from Labelme and then converted it to COCO with labelme2coco.py. But could not complete in due course of Hackathon 
- 
- - AP factor for segmenatation part was very less, so we are not including with our results.
+ - Segmentation part of this problem is also tried with Detectron2 model by preparing data from Labelme and then converted it to COCO with labelme2coco.py. AP factor for segmentation part was very less and we could not complete in due course of Hackathon.
 
-#### Results
+#### Some inference results
 
 ![alt text](https://github.com/Krrish3398/WildFireSmokeDetection/blob/master/smoke_detection_model/results_efficientnet_d3/True_Positives/1.png)
 ![alt text](https://github.com/Krrish3398/WildFireSmokeDetection/blob/master/smoke_detection_model/results_efficientnet_d3/True_Positives/2.png)
