@@ -1,9 +1,11 @@
 # WildFire Smoke Detection 
-Submission for hackathon conducted by AI For Mankind (https://aiformankind.org/) to early detect WildFire smoke . See details of hackathon at https://aiformankind.org/lets-stop-wildfires-hackathon-2.0/
 
+### About
+A wildfire is an uncontrolled fire. Every year, wildfire causes significant destruction of huge forest land, loss of animal and human lives, and wildlife food. Eearly detection of fire can significantly shorten the reaction time. The longer it takes to locate a fire, the harder it is to contain for fire staff. 
 
-Thanks to AIForManKind for providing Quick Start Demo https://github.com/aiformankind/wildfire-smoke-detection-camera
-and providing labeled smoke Image Data Set. 
+This is the submission for [lets-stop-wildfires-hackathon-2.0](https://aiformankind.org/lets-stop-wildfires-hackathon-2.0) to early detect WildFire smoke conducted by [AI For Mankind](https://aiformankind.org/) - a nonprofit organization.
+
+Thanks to AIForManKind for providing [Quick Start Demo](https://github.com/aiformankind/wildfire-smoke-detection-camera) and providing labeled smoke Image Data Set. 
 
 Also special thanks to [HPWREN](http://hpwren.ucsd.edu/) for providing access to HPWREN camera images.
 
@@ -60,7 +62,8 @@ Other Resources
   
  - Faster_rcnn_inception_resnet_v2_atrous_coco also gave good results for true positives but the prediction time is very high and do not solve False Postives problem(predicting fog as smoke) 
  
- - Segmentation part of this problem is also tried with Detectron2 model by preparing data from Labelme and then converted it to COCO with labelme2coco.py. AP factor for segmentation part was very less and we could not complete in due course of Hackathon.
+#### Team members 
+ [Anil](https://github.com/aberrya), [Khyati](https://github.com/khyati0502), [Krishna](https://github.com/Krrish3398) and Rama Revuri
 
 #### Some inference results
 
