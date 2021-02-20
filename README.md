@@ -10,7 +10,7 @@ Thanks to AIForManKind for providing [Quick Start Demo](https://github.com/aifor
 Also special thanks to [HPWREN](http://hpwren.ucsd.edu/) for providing access to HPWREN camera images.
 
 ### Saved Model
-Submitted fined tune model is trained with EfficientDet-d3 using TensorFlow.
+Submitted model is trained with EfficientDet-d3 using TensorFlow.
 
 Data Set - 737 images. After augmenting (Horizontal Flip and brightness), dataset used was :-
 
@@ -55,12 +55,9 @@ Other Resources
 
 #### Others Model Tried
 
-
- - Explored SSD Mobile to solve this problem, but in results we found some limitations with some pattern of images. Training was very slow.
- 
  - FatserRCNN ResNet101 - Got  best accuracy and lowest loss with this. But it was giving many False Positive for Fog images test.
   
- - Faster_rcnn_inception_resnet_v2_atrous_coco also gave good results for true positives but the prediction time is very high and do not solve False Postives problem(predicting fog as smoke) 
+ - Faster_rcnn_inception_resnet_v2_atrous_coco also gave good results for True Positives, but the prediction time is very high and it predicted many fog image as smoke.
  
 #### Team members 
  [Anil](https://github.com/aberrya), [Khyati](https://github.com/khyati0502), [Krishna](https://github.com/Krrish3398) and Rama Revuri
